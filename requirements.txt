@@ -1,0 +1,4 @@
+
+pycocotools
+pixellib==0.7.1
+flask

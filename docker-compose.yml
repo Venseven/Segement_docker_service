@@ -1,0 +1,10 @@
+version: "0.1"
+services:
+  web:
+    build: .
+        
+    volumes:
+      - ./data:/app/data
+
+    ports:
+     - "8081:8081"
